@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.badge {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+label.kanit {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p, pre, .modal-content {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+option, select, input, .dd-container {
+    font-family: 'Outfit', sans-serif !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type="number"] {
+    font-family: 'Outfit', sans-serif !important;
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.navbar.navbar-dark.navbar-expand-lg.fixed-top.bg-white.portfolio-navbar.gradient {
+  background:#ffffff;
+  /* fallback for old browsers */
+background:-webkit-linear-gradient(to right, #ffffff, #ffffff);
+  /* Chrome 10-25, Safari 5.1-6 */
+background:linear-gradient(to right, #ffffff, #ffffff);
+}
+
+.portfolio-block.website.gradient {
+  background:#ffffff;
+  /* fallback for old browsers */
+background:-webkit-linear-gradient(to right, #ffffff, #ffffff);
+  /* Chrome 10-25, Safari 5.1-6 */
+background:linear-gradient(to right, #ffffff, #ffffff);
+}
+
+.portfolio-block.mobile-app.gradient {
+  background:#ffffff;
+  /* fallback for old browsers */
+background:-webkit-linear-gradient(to right, #ffffff, #ffffff);
+  /* Chrome 10-25, Safari 5.1-6 */
+background:linear-gradient(to right, #ffffff, #ffffff);
+}
+
+.glow-button {
+  --box-shadow-color: black;
+  box-shadow: 0 0 30px var(--box-shadow-color);
+}
+
+.btn-primary.glow-button {
+  --box-shadow-color: #007bff;
+}
+
+.btn-secondary.glow-button {
+  --box-shadow-color: #6c757d;
+}
+
+.btn-success.glow-button {
+  --box-shadow-color: #28a745;
+}
+
+.btn-danger.glow-button {
+  --box-shadow-color: #dc3545;
+}
+
+.btn-warning.glow-button {
+  --box-shadow-color: #ffc107;
+}
+
+.btn-info.glow-button {
+  --box-shadow-color: #17a2b8;
+}
+
+.btn-light.glow-button {
+  --box-shadow-color: #f8f9fa;
+}
+
+.btn-dark.glow-button {
+  --box-shadow-color: #343a40;
+}
+
+.btn-lg {
+  margin: 1em;
+}
